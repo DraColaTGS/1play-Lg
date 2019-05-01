@@ -275,8 +275,8 @@ ${prefix}queue ⇏ لمعرفة قآئمة التشغيل
  
 
  client.on('ready',async () => {
-  let GUILDID = ''; // 571682311599554580
-  let CHANNELID = ''; // 573267995284078614 
+  let GUILDID = ''; //571682311599554580
+  let CHANNELID = ''; //573267995284078614 
   voiceStay(GUILDID, CHANNELID);
   function voiceStay(guildid, channelid) {
     if(!guildid) throw new Error('Syntax: voiceStay function requires guildid');
